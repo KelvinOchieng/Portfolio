@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kelly Otieno — Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--
+    Template notes:
+    - Replace placeholders (EMAIL, WA_NUMBER) with your real contact info.
+    - Replace project images with screenshots (use <img src="..."> inside .project elements).
+    - Background image is linked to the local path you uploaded: /mnt/data/portfolio idea.jpg
+    - To publish: upload this file and project assets to Netlify / GitHub Pages / Vercel.
+  -->
+
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">Kelly Otieno</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <p class="title">Web Developer</p>
+          <h1 class="name">Kelly Otieno</h1>
+          <p class="lead">
+            I build fast, responsive landing pages and small web apps for local
+            businesses. I work mainly with HTML, CSS and JavaScript — and build
+            backends using Node.js + Express when needed.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn" href="#projects">View Portfolio</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <!-- optional circular profile or promo card -->
+          <div
+            class="card"
+            style="width: 280px; text-align: center; padding: 30px"
+          >
+            <div
+              style="
+                width: 100px;
+                height: 100px;
+                border-radius: 999px;
+                background: rgba(255, 255, 255, 0.03);
+                margin: 0 auto 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 26px;
+              "
+            >
+              KO
+            </div>
+            <div style="color: var(--muted); font-weight: 600">
+              Kelly Otieno
+            </div>
+            <div style="color: var(--muted); font-size: 13px; margin-top: 6px">
+              Web Developer • Node.js + Express
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="container">
+        <div class="about-grid">
+          <div>
+            <h2 class="section-title">About</h2>
+            <p class="lead-muted">
+              Hi — I'm Kelly, a web developer who builds clean, mobile-friendly
+              landing pages and simple web apps. I focus on fast performance and
+              pragmatic design that helps small businesses get found and convert
+              visitors into customers. I also write backend services using
+              Node.js and Express to power forms, small APIs and simple admin
+              panels.
+            </p>
+            <div style="height: 18px"></div>
+            <div class="card">
+              <h3 style="margin-top: 0">Services</h3>
+              <ul
+                style="
+                  margin: 10px 0 0;
+                  padding-left: 18px;
+                  color: var(--muted);
+                "
+              >
+                <li>Custom one-page landing pages</li>
+                <li>Website fixes (HTML/CSS/JS)</li>
+                <li>Contact forms + small backend (Node.js / Express)</li>
+                <li>Site setup & deployment (Netlify / GitHub Pages)</li>
+              </ul>
+            </div>
+          </div>
+
+          <aside>
+            <div class="card">
+              <h4 style="margin-top: 0">Quick Info</h4>
+              <p style="color: var(--muted); margin: 6px 0">Location: Kenya</p>
+              <p style="color: var(--muted); margin: 6px 0">
+                Email: <strong>otienokelvin824@gmail.com</strong>
+              </p>
+              <p style="color: var(--muted); margin: 6px 0">
+                WhatsApp: <strong>+254743735597</strong>
+              </p>
+              <div style="height: 10px"></div>
+              <h4 style="margin: 0 0 8px">Skills</h4>
+              <div style="font-size: 13px; color: var(--muted)">
+                HTML • CSS • Responsive Design<br />
+                JavaScript • Node.js • Express<br />
+                Git • Basic Deployment n
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="projects" class="container">
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="lead-muted">
+          Below are demo landing pages and small websites I've built. Click any
+          project to view a larger image or live demo (replace with your real
+          links).
+        </p>
+
+        <div style="height: 18px"></div>
+        <div class="projects">
+          <div class="project card">
+            <img
+              src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=800&q=60"
+              alt="Project 1"
+            />
+            <div class="meta">Restaurant Landing</div>
+          </div>
+          <div class="project card">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60"
+              alt="Project 2"
+            />
+            <div class="meta">Barber Shop</div>
+          </div>
+          <div class="project card">
+            <img
+              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=60"
+              alt="Project 3"
+            />
+            <div class="meta">Local Store</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="lead-muted">
+          Hands-on with front-end and simple backend work.
+        </p>
+        <div style="height: 16px"></div>
+        <div class="skills-list">
+          <div class="skill card">
+            <div class="label"><span>HTML / CSS</span><span>90%</span></div>
+            <div class="bar"><span style="width: 90%"></span></div>
+          </div>
+          <div class="skill card">
+            <div class="label">
+              <span>JavaScript (Vanilla)</span><span>70%</span>
+            </div>
+            <div class="bar"><span style="width: 70%"></span></div>
+          </div>
+          <div class="skill card">
+            <div class="label">
+              <span>Node.js / Express</span><span>65%</span>
+            </div>
+            <div class="bar"><span style="width: 65%"></span></div>
+          </div>
+          <div class="skill card">
+            <div class="label">
+              <span>Responsive Design</span><span>85%</span>
+            </div>
+            <div class="bar"><span style="width: 85%"></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div style="flex: 1">
+            <p class="lead-muted">
+              Interested in an affordable landing page or a small web app? Send
+              a quick message on WhatsApp or email me and I’ll reply fast.
+            </p>
+            <div style="height: 12px"></div>
+            <a
+              class="btn primary"
+              href="https://wa.me/254743735597"
+              target="_blank"
+              >Message on WhatsApp</a
+            >
+            <a
+              class="btn"
+              style="margin-left: 12px"
+              href="mailto:otienokelvin824@gmail.com"
+              >Email Me</a
+            >
+          </div>
+          <div style="width: 320px">
+            <div class="card">
+              <div class="big">Want a simple landing page?</div>
+              <p style="color: var(--muted); margin: 8px 0 0">
+                Typical package: One-page responsive site — Ksh 1,000 (includes
+                basic contact form & deployment).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Kelly Otieno — Web Developer • Built with HTML &
+      CSS
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
