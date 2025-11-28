@@ -227,7 +227,7 @@ p.lead-muted {
 /* Contact */
 .contact-grid {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center
 }
 
@@ -246,7 +246,7 @@ footer {
 @media (max-width:900px) {
     .hero-inner {
         flex-direction: column;
-        text-align: center
+        text-align: start
     }
 
     .about-grid {
@@ -266,4 +266,26 @@ footer {
     .name {
         font-size: 34px
     }
+}
+
+@media (max-width:412px) {
+
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+    .contact-grid {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav .links {
+        display: none;
+    }
+
+    .brand {
+        display: none;
+    }
+
 }
