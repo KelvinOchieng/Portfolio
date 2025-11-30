@@ -256,6 +256,10 @@ footer {
     .projects {
         grid-template-columns: repeat(2, 1fr)
     }
+    .contact-grid {
+        flex-direction: column;
+        align-items: start;
+    }
 }
 
 @media (max-width:560px) {
